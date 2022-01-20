@@ -13,8 +13,6 @@
 #define MAX_SIZE    1024
 #define MSG_STOP    "exit"
 
-//gcc 2a.c -o 2a -lrt -lpthread -std=c99
-
 void * reader(void * args) {
     mqd_t mq;
     ssize_t bytes_read;
